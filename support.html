@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拾鲜 App - 用户技术支持</title>
+    <style>
+        :root {
+            --bg-color: #f2f2f7;
+            --text-color: #1c1c1e;
+            --card-bg: #ffffff;
+            --accent-color: #34c759;
+            /* 贴合食仓可能的绿色基调 */
+            --border-color: #e5e5ea;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #000000;
+                --text-color: #f2f2f7;
+                --card-bg: #1c1c1e;
+                --accent-color: #30d158;
+                --border-color: #38383a;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        p {
+            font-size: 16px;
+            color: var(--text-color);
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        .contact-box {
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            background-color: var(--bg-color);
+        }
+
+        .contact-box h2 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .email-link {
+            display: inline-block;
+            color: var(--accent-color);
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 13px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>拾鲜 App 技术支持</h1>
+        <p>感谢您使用拾鲜！告别冲动消费，拥抱长期主义。</p>
+        <p>如果您在使用过程中遇到任何问题，或对如何改进产品有任何建议，我们非常期待听到您的声音。</p>
+
+        <div class="contact-box">
+            <h2>联系我们</h2>
+            <!-- 请将下方的邮箱地址替换为您的实际邮箱 -->
+            <a href="mailto:fridgekeeper@163.com" class="email-link">fridgekeeper@163.com</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 拾鲜 KitchenVault. All rights reserved.
+        </div>
+    </div>
+</body>
+
+</html>
